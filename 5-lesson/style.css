@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #242b2e;
+
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.counter_block{
+    width: 500px;
+    height: 70vh;
+    border: 1px solid#ffff;
+    padding: 20px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.count p{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: bold;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.button{
+    width: 45%;
+    height: 40px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: #406d7f;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.button.another{
+    margin-top: 20px;
+}
+
+.button.restart{
+    margin-top: 20px;
+    width: 95%;
+}
+
+.button:hover{
+    background: #ffffff;
+    color: #242b2e;
+}
